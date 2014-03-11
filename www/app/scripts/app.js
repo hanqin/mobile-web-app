@@ -13,6 +13,6 @@ angular.module('wwwApp', [
         controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '404.html'
       });
   });
